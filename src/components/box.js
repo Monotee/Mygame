@@ -1,7 +1,7 @@
 import React from 'react'
 
 // just making the border thicker and increasing size of the fonts
-const style = {
+const deco = {
 	
 	fontSize: "40px",
 }   
@@ -15,7 +15,7 @@ It will display value that is passed from Board
 */
 export const Box = (props) =>
  <button  name={props.name}  
- style={style}  
+ style={deco}  
  onClick={props.onClick}> 
  {props.value} 
   

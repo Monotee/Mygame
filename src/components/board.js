@@ -3,7 +3,7 @@ import Box from './box'
 
 
 // creating a sqaure box in with grid layout
-const style = {
+const deco = {
     borderRadius:"10px",
     border:"solid",
 	width: "350px",
@@ -17,7 +17,7 @@ const style = {
 // and a 'onClick' function that needs to be called when button is clicked
 // restoring array of box.js
 const Board = (props) => (
-    <div style={style}>
+    <div style={deco}>
         
     {[ ...Array(9)].map((_, pos) =>
      <Box key={pos} name={pos} 
